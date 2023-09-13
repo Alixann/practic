@@ -1,0 +1,133 @@
+.header{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.main{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.header__container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.rectangle{
+    background-color: black;
+    
+}
+
+.header__left{
+    width:400px;
+    height: 50px;
+}
+.header__right{
+    width: 250px;
+    height: 50px;
+}
+.title{
+    display: flex;
+    align-content: center;
+    margin-top: 50px;
+    width:1000px;
+    height: 50px;
+    border: 1px; 
+    background-color: black;
+}
+.main__container {
+    display: flex;
+  }
+  
+  .main__text {
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .main__square {
+    margin: 0 auto;
+    margin-top: 60px;
+    width:180px;
+    height: 180px;
+    border: 1px; 
+    background-color: black;
+  }
+.center{
+     display: flex;
+     justify-content: space-between;
+     margin-top: 50px; 
+}
+.center__left{
+    width:260px;
+    height: 40px;
+    border: 1px; 
+    background-color: black;
+}
+.center__right{
+    width: 300px;
+    height: 45px;
+    border: 1px; 
+    background-color: black;
+    margin-left: 10px;
+    margin-right: 70px;
+}
+.center2{
+    display: flex;
+    justify-content: space-between;
+}
+.center__left__2{
+    margin-top: 50px;
+    width:430px;
+    height: 60px;
+    border: 1px; 
+    background-color: black;
+}
+.center__right__2{
+    margin-top: 30px;
+    width: 370px;
+    height: 80px;
+    border: 1px; 
+    background-color: black;
+   
+}
+
+.footer__square {
+    margin-top: 50px;
+    min-width:130px;
+    height: 130px;
+    border: 1px; 
+    background-color: black;
+}
+.list__1{
+    display: flex;
+    gap: 30px; 
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+li{
+    max-width: 350px; 
+    margin-top: 30px; 
+}
+.text__2{
+    max-width: 350px;
+   
+}
+.list__2{
+    display: flex; 
+    margin-top: 30px;
+}
+
+
+/* Footer */
+
+.footer{
+    max-width: 1000px;
+    margin: 0 auto;  
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between
+}
